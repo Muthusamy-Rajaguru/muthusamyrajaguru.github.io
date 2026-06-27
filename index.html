@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muthusamy Rajaguru — String Theory</title>
+<meta name="description" content="Muthusamy Rajaguru — Postdoctoral Researcher at IFT Madrid working on string theory, string compactifications, and the Swampland program.">
+<meta name="author" content="Muthusamy Rajaguru">
+
+<meta property="og:title" content="Muthusamy Rajaguru — String Theory">
+<meta property="og:description" content="Postdoctoral Researcher at IFT Madrid — string theory, compactifications, and the Swampland program.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Muthusamy Rajaguru">
+<meta property="og:url" content="https://muthusamy-rajaguru.github.io/">
+<meta property="og:image" content="https://muthusamy-rajaguru.github.io/profile.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Muthusamy Rajaguru — String Theory">
+<meta name="twitter:description" content="Postdoctoral Researcher at IFT Madrid — string theory and the Swampland program.">
+<meta name="twitter:image" content="https://muthusamy-rajaguru.github.io/profile.jpg">
+<link rel="canonical" href="https://muthusamy-rajaguru.github.io/">
+
+<!-- Structured data: tells Google this page is about you (helps name search + knowledge panel) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Muthusamy Rajaguru",
+  "givenName": "Muthusamy",
+  "familyName": "Rajaguru",
+  "url": "https://muthusamy-rajaguru.github.io/",
+  "image": "https://muthusamy-rajaguru.github.io/profile.jpg",
+  "email": "mailto:muthusamy.rajaguru@uam.es",
+  "jobTitle": "Postdoctoral Researcher in Theoretical Physics",
+  "worksFor": { "@type": "Organization", "name": "Instituto de Física Teórica (IFT) UAM–CSIC" },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "Lehigh University" },
+    { "@type": "CollegeOrUniversity", "name": "IISER Thiruvananthapuram" }
+  ],
+  "knowsAbout": ["String theory", "Quantum gravity", "Swampland program", "Moduli stabilization", "String compactifications"],
+  "sameAs": [
+    "https://orcid.org/0000-0002-1233-1961",
+    "https://inspirehep.net/literature?q=Muthusamy%20Rajaguru"
+  ]
+}
+</script>
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231f3a5f'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' fill='white' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --bg:#fbfbf8;
+    --surface:#ffffff;
+    --ink:#1a1a1a;
+    --muted:#5b5f64;
+    --faint:#8a8f95;
+    --line:#e8e7e0;
+    --accent:#1f3a5f;
+    --accent-soft:#3b5b75;
+    --accent-wash:#eef2f6;
+    --max:720px;
+    --serif:"Newsreader",Georgia,"Times New Roman",serif;
+    --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;scroll-padding-top:80px;}
+
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:var(--sans);
+    font-size:17px;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+
+  a{color:var(--accent-soft);text-decoration:none;transition:color .15s ease;}
+  a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:3px;}
+
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 24px;}
+
+  /* ---------- Nav ---------- */
+  header.nav{
+    position:sticky;top:0;z-index:50;
+    background:rgba(251,251,248,.82);
+    backdrop-filter:saturate(150%) blur(10px);
+    -webkit-backdrop-filter:saturate(150%) blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{
+    max-width:var(--max);margin:0 auto;padding:14px 24px;
+    display:flex;align-items:center;justify-content:space-between;gap:16px;
+  }
+  .brand{font-family:var(--serif);font-weight:600;font-size:18px;color:var(--ink);letter-spacing:.2px;}
+  .brand:hover{text-decoration:none;color:var(--accent);}
+  .nav-links{display:flex;gap:22px;align-items:center;}
+  .nav-links a{
+    font-size:14.5px;color:var(--muted);font-weight:500;
+    position:relative;padding:4px 0;
+  }
+  .nav-links a:hover{color:var(--accent);text-decoration:none;}
+  .nav-links a.active{color:var(--accent);}
+  .nav-links a.active::after{
+    content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--accent);
+  }
+  .nav-toggle{display:none;background:none;border:0;cursor:pointer;padding:6px;color:var(--ink);}
+  .nav-toggle svg{display:block;}
+
+  /* ---------- Hero ---------- */
+  .hero{padding:72px 0 24px;}
+  .hero h1{
+    font-family:var(--serif);font-weight:600;font-size:44px;line-height:1.1;
+    margin:0 0 10px;letter-spacing:-.4px;
+  }
+  .hero .role{font-size:18px;color:var(--accent);font-weight:500;margin:0 0 2px;}
+  .hero .affil{color:var(--muted);margin:0 0 22px;font-size:16.5px;}
+  .hero .intro{font-size:18px;color:#33373b;margin:0 0 24px;}
+  .hero-row{display:flex;gap:38px;align-items:flex-start;}
+  .hero-text{flex:1 1 auto;min-width:0;}
+  .hero-photo{flex:0 0 auto;width:172px;aspect-ratio:4/5;object-fit:cover;object-position:center;
+    border-radius:14px;border:1px solid var(--line);box-shadow:0 1px 3px rgba(0,0,0,.05);margin-top:6px;}
+  .hero .intro em{font-style:italic;}
+
+  .links{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px;}
+  .links a{
+    display:inline-flex;align-items:center;gap:7px;
+    font-size:14px;font-weight:500;color:var(--accent);
+    background:var(--surface);border:1px solid var(--line);
+    padding:7px 13px;border-radius:999px;transition:all .15s ease;
+  }
+  .links a:hover{border-color:var(--accent);background:var(--accent-wash);text-decoration:none;transform:translateY(-1px);}
+  .links a svg{width:15px;height:15px;flex:0 0 auto;}
+
+  /* ---------- Sections ---------- */
+  section{padding:40px 0;border-top:1px solid var(--line);}
+  section:first-of-type{border-top:0;}
+  .sec-label{
+    font-family:var(--sans);font-size:12.5px;font-weight:600;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--faint);margin:0 0 18px;
+  }
+  h2{font-family:var(--serif);font-weight:600;font-size:27px;margin:0 0 16px;letter-spacing:-.2px;}
+  h3{font-family:var(--serif);font-weight:600;font-size:19px;margin:26px 0 8px;}
+  p{margin:0 0 16px;}
+  .lead{color:#33373b;}
+
+  .tag-row{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px;}
+  .tag{
+    font-size:13.5px;color:var(--accent);background:var(--accent-wash);
+    border:1px solid #dde6ee;border-radius:6px;padding:4px 11px;font-weight:500;
+  }
+
+  /* ---------- Publications ---------- */
+  ol.pubs{list-style:none;margin:0;padding:0;counter-reset:pub;}
+  ol.pubs li{
+    position:relative;padding:0 0 0 40px;margin:0 0 24px;
+  }
+  ol.pubs li::before{
+    counter-increment:pub;content:"["counter(pub)"]";
+    position:absolute;left:0;top:1px;color:var(--faint);
+    font-variant-numeric:tabular-nums;font-size:14px;font-weight:500;
+  }
+  .pub-title{font-weight:600;color:var(--ink);}
+  .pub-authors{color:var(--muted);}
+  .pub-authors .me{color:var(--ink);font-weight:600;}
+  .pub-venue{color:var(--muted);font-style:italic;}
+  .pub-meta{font-size:14px;margin-top:3px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;}
+  .pub-meta a{
+    font-size:13px;font-weight:500;border:1px solid var(--line);
+    padding:1px 9px;border-radius:5px;background:var(--surface);
+  }
+  .pub-meta a:hover{border-color:var(--accent);background:var(--accent-wash);text-decoration:none;}
+
+  /* ---------- Teaching / Talks / Awards lists ---------- */
+  .entry{display:grid;grid-template-columns:150px 1fr;gap:18px;padding:13px 0;border-bottom:1px solid var(--line);}
+  .entry:last-child{border-bottom:0;}
+  .entry .when{color:var(--faint);font-size:14.5px;font-variant-numeric:tabular-nums;padding-top:1px;}
+  .entry .what{margin:0;}
+  .entry .what strong{font-weight:600;}
+  .entry .what .sub{display:block;color:var(--muted);font-size:15px;}
+  .badge{display:inline-block;font-size:11.5px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
+    color:var(--accent);background:var(--accent-wash);border:1px solid #dde6ee;border-radius:4px;padding:1px 7px;margin-left:8px;vertical-align:1px;}
+
+  .muted-note{font-size:15px;color:var(--muted);}
+
+  /* ---------- CV banner ---------- */
+  .cv-banner{
+    display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;
+    background:var(--surface);border:1px solid var(--line);border-radius:12px;
+    padding:20px 22px;margin-top:22px;
+  }
+  .cv-banner p{margin:0;color:var(--muted);font-size:15.5px;}
+  .cv-banner strong{color:var(--ink);}
+  .btn{
+    display:inline-flex;align-items:center;gap:8px;
+    background:var(--accent);color:#fff;font-weight:500;font-size:15px;
+    padding:10px 18px;border-radius:8px;border:1px solid var(--accent);
+    transition:all .15s ease;white-space:nowrap;
+  }
+  .btn:hover{background:#16304f;color:#fff;text-decoration:none;transform:translateY(-1px);}
+  .btn svg{width:16px;height:16px;}
+
+  /* ---------- Contact ---------- */
+  .contact-grid{display:grid;grid-template-columns:120px 1fr;gap:6px 18px;font-size:16px;}
+  .contact-grid dt{color:var(--faint);font-size:14.5px;padding-top:1px;}
+  .contact-grid dd{margin:0;}
+
+  /* ---------- Footer ---------- */
+  footer{border-top:1px solid var(--line);padding:30px 0 50px;color:var(--faint);font-size:13.5px;}
+  footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;}
+
+  /* ---------- Reveal animation ---------- */
+  .reveal{opacity:0;transform:translateY(12px);transition:opacity .6s ease,transform .6s ease;}
+  .reveal.in{opacity:1;transform:none;}
+
+  /* ---------- Responsive ---------- */
+  @media (max-width:640px){
+    body{font-size:16px;}
+    .hero{padding:48px 0 16px;}
+    .hero h1{font-size:34px;}
+    .hero-row{flex-direction:column-reverse;gap:20px;align-items:flex-start;}
+    .hero-photo{width:120px;}
+    .nav-toggle{display:block;}
+    .nav-links{
+      display:none;position:absolute;top:100%;left:0;right:0;
+      flex-direction:column;align-items:flex-start;gap:0;
+      background:var(--surface);border-bottom:1px solid var(--line);
+      padding:8px 24px 14px;
+    }
+    .nav-links.open{display:flex;}
+    .nav-links a{width:100%;padding:10px 0;border-bottom:1px solid var(--line);}
+    .nav-links a:last-child{border-bottom:0;}
+    .nav-links a.active::after{display:none;}
+    .entry{grid-template-columns:1fr;gap:2px;}
+    .entry .when{order:2;}
+    .contact-grid{grid-template-columns:1fr;gap:2px;}
+    .contact-grid dt{margin-top:10px;}
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto;}
+    .reveal{opacity:1;transform:none;transition:none;}
+    .links a:hover,.btn:hover{transform:none;}
+  }
+</style>
+<noscript><style>.reveal{opacity:1!important;transform:none!important;}</style></noscript>
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">Muthusamy Rajaguru</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#talks">Talks</a>
+      <a href="#awards">Awards</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===================== HERO / ABOUT ===================== -->
+  <section class="hero" id="about" style="border-top:0;">
+    <div class="wrap">
+      <div class="hero-row">
+      <div class="hero-text">
+      <h1>Muthusamy Rajaguru</h1>
+      <p class="role">Postdoctoral Researcher · String Theory</p>
+      <p class="affil">Instituto de Física Teórica (IFT) UAM–CSIC, Madrid · Irene Valenzuela's group</p>
+
+      <p class="intro">
+        I am a postdoctoral researcher in theoretical high-energy physics. My research centers
+        on string compactifications, moduli stabilization, and the Swampland program. I completed
+        my Ph.D. at Lehigh University under Timm Wrase, and my integrated BS–MS at IISER
+        Thiruvananthapuram.
+      </p>
+
+      <div class="links">
+        <a href="mailto:muthusamy.rajaguru@uam.es" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+          Email
+        </a>
+        <a href="cv.pdf" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
+          CV
+        </a>
+        <a href="https://inspirehep.net/literature?q=Muthusamy%20Rajaguru" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          INSPIRE
+        </a>
+        <a href="https://arxiv.org/search/?searchtype=author&amp;query=Rajaguru,+M" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M5 10l7-7 7 7"/></svg>
+          arXiv
+        </a>
+        <a href="https://orcid.org/0000-0002-1233-1961" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M9 8.2h.01"/></svg>
+          ORCID
+        </a>
+      </div>
+      </div>
+      <img class="hero-photo" src="profile.jpg" alt="Muthusamy Rajaguru" onerror="this.remove()">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RESEARCH ===================== -->
+  <section id="research">
+    <div class="wrap reveal">
+      <p class="sec-label">Research</p>
+      <h2>Research interests</h2>
+      <p class="lead">
+        I work on string theory and quantum gravity, combining explicit string constructions
+        with general consistency arguments. My research runs along two main threads.
+      </p>
+
+      <h3>Moduli stabilization</h3>
+      <p>
+        My work on this front has focused on building reliable 4d vacua in non-geometric LG models,
+        scale-separated 3d and 4d AdS vacua, and 4d vacua from compactifications of type II
+        on group manifolds.
+      </p>
+
+      <h3>Effective field theories</h3>
+      <p>
+        Pinning down which low-energy effective theories are compatible with quantum gravity
+        and causality — for instance, deriving causality bounds from charged shockwaves in
+        five dimensions, and characterising the scalar potentials and asymptotic dark-energy
+        behaviour that the Swampland allows.
+      </p>
+
+      <div class="tag-row">
+        <span class="tag">String theory</span>
+        <span class="tag">Swampland program</span>
+        <span class="tag">Quantum gravity</span>
+        <span class="tag">Moduli stabilization</span>
+        <span class="tag">Flux compactifications</span>
+        <span class="tag">Landau–Ginzburg models</span>
+        <span class="tag">String cosmology</span>
+        <span class="tag">Scale separation</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PUBLICATIONS ===================== -->
+  <section id="publications">
+    <div class="wrap reveal">
+      <p class="sec-label">Publications</p>
+      <h2>Publications</h2>
+      <p class="lead" style="font-size:15.5px;color:var(--muted);">
+        Listed newest first; my name is shown in <strong>bold</strong>. A complete, automatically
+        updated record is on
+        <a href="https://inspirehep.net/literature?q=Muthusamy%20Rajaguru" target="_blank" rel="noopener">INSPIRE-HEP</a>.
+      </p>
+
+      <ol class="pubs">
+        <li>
+          <span class="pub-title">T-dualities and scale-separated AdS<sub>3</sub> vacua in type I</span><br>
+          <span class="pub-authors">Z. Miao, <span class="me">M. Rajaguru</span>, G. Tringas, T. Wrase</span>.
+          <span class="pub-venue">arXiv preprint</span> (2025).
+          <div class="pub-meta">
+            <a href="https://arxiv.org/abs/2509.12801" target="_blank" rel="noopener">arXiv:2509.12801</a>
+          </div>
+        </li>
+        <li>
+          <span class="pub-title">Characterisations of scalar potentials in string theory compactifications</span><br>
+          <span class="pub-authors">D. Andriot, <span class="me">M. Rajaguru</span>, G. Tringas</span>.
+          <span class="pub-venue">JHEP 05 (2025) 046</span>.
+          <div class="pub-meta">
+            <a href="https://arxiv.org/abs/2501.17775" target="_blank" rel="noopener">arXiv:2501.17775</a>
+          </div>
+        </li>
+        <li>
+          <span class="pub-title">Causality bounds from charged shockwaves in 5d</span><br>
+          <span class="pub-authors">S. Cremonini, B. McPeak, M. Moezzi, <span class="me">M. Rajaguru</span></span>.
+          <span class="pub-venue">arXiv preprint</span> (2024).
+          <div class="pub-meta">
+            <a href="https://arxiv.org/abs/2412.06891" target="_blank" rel="noopener">arXiv:2412.06891</a>
+          </div>
+        </li>
+        <li>
+          <span class="pub-title">Fully stabilized Minkowski vacua in the 2<sup>6</sup> Landau–Ginzburg model</span><br>
+          <span class="pub-authors"><span class="me">M. Rajaguru</span>, A. Sengupta, T. Wrase</span>.
+          <span class="pub-venue">JHEP 10 (2024) 095</span>.
+          <div class="pub-meta">
+            <a href="https://arxiv.org/abs/2407.16756" target="_blank" rel="noopener">arXiv:2407.16756</a>
+          </div>
+        </li>
+        <li>
+          <span class="pub-title">Moduli stabilization in the 1<sup>9</sup> model</span><br>
+          <span class="pub-authors">K. Becker, <span class="me">M. Rajaguru</span>, A. Sengupta, J. Walcher, T. Wrase</span>.
+          <span class="pub-venue">JHEP 08 (2024) 069</span>.
+          <div class="pub-meta">
+            <a href="https://arxiv.org/abs/2406.03435" target="_blank" rel="noopener">arXiv:2406.03435</a>
+          </div>
+        </li>
+        <li>
+          <span class="pub-title">On asymptotic dark energy in string theory</span><br>
+          <span class="pub-authors">S. Cremonini, E. Gonzalo, <span class="me">M. Rajaguru</span>, Y. Tang, T. Wrase</span>.
+          <span class="pub-venue">JHEP 09 (2023) 075</span>.
+          <div class="pub-meta">
+            <a href="https://arxiv.org/abs/2306.15714" target="_blank" rel="noopener">arXiv:2306.15714</a>
+          </div>
+        </li>
+        <li>
+          <span class="pub-title">Automated consistent truncations and stability of flux compactifications</span><br>
+          <span class="pub-authors">D. Andriot, P. Marconnet, <span class="me">M. Rajaguru</span>, T. Wrase</span>.
+          <span class="pub-venue">JHEP 12 (2022) 026</span>.
+          <div class="pub-meta">
+            <a href="https://arxiv.org/abs/2209.08015" target="_blank" rel="noopener">arXiv:2209.08015</a>
+          </div>
+        </li>
+        <li>
+          <span class="pub-title">Type IIB flux compactifications with <i>h</i><sup>1,1</sup> = 0</span><br>
+          <span class="pub-authors">J. Bardzell, E. Gonzalo, <span class="me">M. Rajaguru</span>, D. Smith, T. Wrase</span>.
+          <span class="pub-venue">JHEP 06 (2022) 166</span>.
+          <div class="pub-meta">
+            <a href="https://arxiv.org/abs/2203.15818" target="_blank" rel="noopener">arXiv:2203.15818</a>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===================== TALKS ===================== -->
+  <section id="talks">
+    <div class="wrap reveal">
+      <p class="sec-label">Talks</p>
+      <h2>Selected talks</h2>
+      <p class="muted-note" style="margin-bottom:18px;">A selection of recent talks and seminars; the full list is in my CV.</p>
+
+      <div class="entry">
+        <div class="when">Nov 2025</div>
+        <p class="what"><strong>T-dualities and scale-separated AdS<sub>3</sub> vacua in type I</strong><span class="badge">Invited</span>
+          <span class="sub">Online Swampland Seminar Series</span></p>
+      </div>
+      <div class="entry">
+        <div class="when">Nov 2025</div>
+        <p class="what"><strong>T-dualities and scale-separated AdS<sub>3</sub> vacua</strong><span class="badge">Invited</span>
+          <span class="sub">10th IBS–IFT Workshop · IFT Madrid, Spain</span></p>
+      </div>
+      <div class="entry">
+        <div class="when">Jul 2025</div>
+        <p class="what"><strong>Non-geometric string vacua</strong>
+          <span class="sub">String Pheno '25 · Boston, USA</span></p>
+      </div>
+      <div class="entry">
+        <div class="when">Jul 2024</div>
+        <p class="what"><strong>Fully stabilized Minkowski vacua in the 2<sup>6</sup> Landau–Ginzburg model</strong><span class="badge">Invited</span>
+          <span class="sub">The Landscape vs the Swampland · Vienna, Austria</span></p>
+      </div>
+      <div class="entry">
+        <div class="when">Jun 2024</div>
+        <p class="what"><strong>Stabilizing massless fields in Landau–Ginzburg models</strong>
+          <span class="sub">String Pheno '24 · Padova, Italy</span></p>
+      </div>
+      <div class="entry">
+        <div class="when">May 2024</div>
+        <p class="what"><strong>Stabilizing massless fields in Landau–Ginzburg models</strong><span class="badge">Invited</span>
+          <span class="sub">Swamplandia '24 · Bavaria, Germany</span></p>
+      </div>
+      <div class="entry">
+        <div class="when">Jan 2024</div>
+        <p class="what"><strong>Non-geometric string compactifications and the Swampland</strong><span class="badge">Invited</span>
+          <span class="sub">Mitchell Institute Seminar · Texas A&amp;M University, USA</span></p>
+      </div>
+      <div class="entry">
+        <div class="when">Nov 2023</div>
+        <p class="what"><strong>Moduli stabilization in the 1<sup>9</sup> Landau–Ginzburg model</strong><span class="badge">Invited</span>
+          <span class="sub">Harvard Swampland Visitors Program · Harvard University, USA</span></p>
+      </div>
+      <div class="entry">
+        <div class="when">Jul 2023</div>
+        <p class="what"><strong>Non-geometric flux compactifications and the Swampland</strong>
+          <span class="sub">String Phenomenology '23 · IBS, Daejeon, South Korea</span></p>
+      </div>
+
+      <div class="cv-banner">
+        <p><strong>Curriculum Vitae.</strong> Full list of publications, talks, awards, and academic visits.</p>
+        <a class="btn" href="cv.pdf" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>
+          Download CV (PDF)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== AWARDS & SERVICE ===================== -->
+  <section id="awards">
+    <div class="wrap reveal">
+      <p class="sec-label">Awards &amp; Service</p>
+      <h2>Awards &amp; fellowships</h2>
+      <div class="entry">
+        <div class="when">2024</div>
+        <p class="what"><strong>Dean's Graduate Student Research Prize</strong>
+          <span class="sub">College of Arts and Sciences, Lehigh University</span></p>
+      </div>
+      <div class="entry">
+        <div class="when">2022 – present</div>
+        <p class="what"><strong>Lee Fellowship</strong>
+          <span class="sub">College of Arts and Sciences, Lehigh University — awarded to meritorious students to pursue research without teaching duties</span></p>
+      </div>
+      <div class="entry">
+        <div class="when">2015 – 2020</div>
+        <p class="what"><strong>INSPIRE Fellowship</strong>
+          <span class="sub">Department of Science and Technology, Government of India</span></p>
+      </div>
+
+      <h3 style="margin-top:30px;">Service</h3>
+      <p class="muted-note">Referee for the <em>Journal of High Energy Physics</em> (JHEP) and the <em>European Physical Journal C</em> (EPJ&nbsp;C).</p>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact">
+    <div class="wrap reveal">
+      <p class="sec-label">Contact</p>
+      <h2>Get in touch</h2>
+      <dl class="contact-grid">
+        <dt>Email</dt>
+        <dd><a href="mailto:muthusamy.rajaguru@uam.es">muthusamy.rajaguru@uam.es</a></dd>
+        <dt>Affiliation</dt>
+        <dd>Instituto de Física Teórica (IFT) UAM–CSIC</dd>
+        <dt>Location</dt>
+        <dd>Madrid, Spain</dd>
+        <dt>Profiles</dt>
+        <dd>
+          <a href="https://inspirehep.net/literature?q=Muthusamy%20Rajaguru" target="_blank" rel="noopener">INSPIRE-HEP</a> ·
+          <a href="https://arxiv.org/search/?searchtype=author&amp;query=Rajaguru,+M" target="_blank" rel="noopener">arXiv</a> ·
+          <a href="https://orcid.org/0000-0002-1233-1961" target="_blank" rel="noopener">ORCID</a>
+        </dd>
+      </dl>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="wrap">
+    <span>© <span id="year"></span> Muthusamy Rajaguru</span>
+    <span>Last updated June 2026</span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // mobile nav toggle
+  const toggle = document.querySelector('.nav-toggle');
+  const links = document.querySelector('.nav-links');
+  toggle.addEventListener('click', () => {
+    const open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+  links.querySelectorAll('a').forEach(a =>
+    a.addEventListener('click', () => {
+      links.classList.remove('open');
+      toggle.setAttribute('aria-expanded', false);
+    })
+  );
+
+  // scrollspy
+  const navMap = {};
+  document.querySelectorAll('.nav-links a').forEach(a => {
+    navMap[a.getAttribute('href').slice(1)] = a;
+  });
+  const spy = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        Object.values(navMap).forEach(a => a.classList.remove('active'));
+        const link = navMap[e.target.id];
+        if (link) link.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-45% 0px -50% 0px' });
+  document.querySelectorAll('main section').forEach(s => spy.observe(s));
+
+  // reveal on scroll
+  const revealer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('in'); revealer.unobserve(e.target); }
+    });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.reveal').forEach(el => revealer.observe(el));
+</script>
+</body>
+</html>
